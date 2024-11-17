@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pageContent {
+  padding-top: 70px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBar h2 {
+  padding-left: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.interaction {
+  padding-right: 50px;
   display: flex;
-  flex-direction: column;
+  position: relative;
+  gap: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.avatarGroup {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+  align-items: center;
+}
+.avatarGroup p {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: large;
+}
+.avatar {
   color: white;
+  background-color: #7cc8e6;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.navBar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100vw !important;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.interaction i {
+  font-size: larger;
+}
+.avatarGroup:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+.fa-bell:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+.dropdown {
+  position: absolute;
+  top: 72px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  color: black;
+  z-index: 10;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown p {
+  margin: 5px 0;
+  padding: 10px;
+  padding-right: 50px;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown i {
+  margin-right: 10px;
+}
+.dropdown p:hover {
+  background-color: #f0f0f0;
 }

@@ -1,0 +1,79 @@
+.loginPage {
+  background: linear-gradient(to bottom, #7cc8e6, #03346e);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.errorMsg {
+  color: red !important;
+  text-align: center !important;
+}
+.loginPage form {
+  background-color: white;
+  margin-top: 120px;
+  min-height: 70vh;
+  height: fit-content;
+  width: 30%;
+  display: flex;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+.loginPage form p {
+  color: #03346e;
+  text-align: left;
+  width: 90%;
+  font-weight: 500;
+}
+.loginPage form input {
+  padding: 15px;
+  border-radius: 5px;
+  align-self: center;
+  outline: none;
+  border: 1px solid gray;
+  transition: border-color 0.5s ease;
+  width: 80%;
+  padding-left: 30px;
+}
+.loginPage form h1 {
+  color: #03346e;
+}
+.navBar {
+  background-color: #032542;
+  color: #7cc8e6;
+}
+.inputGroup {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.inputGroup input:focus {
+  border: 2px solid #7cc8e6;
+}
+.submitButton {
+  background-color: #7cc8e6;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 80%;
+  transition: background-color 0.5s, transform 0.5s;
+  border: none;
+}
+.submitButton:hover {
+  background-color: #69abc5;
+  transform: translateY(-10px);
+}
+.hintText {
+  color: gray !important;
+  text-align: center !important;
+  margin-top: 40px;
+  font-weight: lighter !important;
+}

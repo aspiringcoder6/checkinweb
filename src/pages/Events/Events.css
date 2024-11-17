@@ -1,0 +1,47 @@
+.eventsPage {
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.pagination {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.pageButton {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pageButton:hover {
+  background-color: #ddd;
+}
+
+.pageButton.active {
+  background-color: #6eacda;
+  color: white;
+  font-weight: bold;
+}
+.eventsAction {
+  display: flex;
+  align-items: baseline;
+  width: 96%;
+  justify-content: space-between;
+}
+.eventsAction button {
+  background-color: #7cc8e6;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: fit-content !important;
+  padding: 10px;
+}
+.eventsAction button:hover {
+  background-color: #6eacda;
+}

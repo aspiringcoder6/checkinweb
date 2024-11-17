@@ -1,0 +1,53 @@
+.createEventPage {
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+}
+.inputGroup input {
+  padding: 5px;
+  margin-top: 10px;
+}
+.inputGroup input:focus,
+.inputGroup textarea:focus {
+  outline: none;
+  border: 2px solid #7cc8e6;
+  border-radius: 5px;
+}
+.inputGroup textarea {
+  padding: 5px;
+  margin-top: 10px;
+  height: 100px;
+}
+.createInteractions {
+  gap: 20px;
+  display: flex;
+}
+.createInteractions button {
+  padding: 10px 20px;
+  font-size: large;
+}
+.participantInput {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: baseline;
+}
+.participantInput input {
+  height: 100%;
+}
+.participantInput button {
+  background-color: #7cc8e6;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+}
+.participantInput button:hover {
+  background-color: #69abc5;
+}

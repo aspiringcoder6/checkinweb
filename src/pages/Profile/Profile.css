@@ -1,0 +1,19 @@
+.profilePage {
+  padding-left: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.profilePage .createInteractions {
+  margin-top: 40px;
+}
+.profilePage input {
+  padding: 5px;
+  width: 300px;
+}
+.profilePage div p {
+  font-size: large;
+}
+.errorMsg {
+  text-align: left !important;
+}

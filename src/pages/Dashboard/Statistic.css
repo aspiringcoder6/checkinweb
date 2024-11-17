@@ -1,0 +1,26 @@
+.statistic {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  width: 260px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  height: 120px;
+  border-radius: 10px;
+}
+.statName {
+  color: rgb(176, 176, 176);
+  font-size: small;
+  font-weight: 500;
+}
+.statVal {
+  margin-top: 0px;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+.statIcon {
+  width: fit-content;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-size: small;
+  float: right;
+}

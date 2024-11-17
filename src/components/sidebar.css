@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  min-height: 90.8vh;
+}
+.pageContent {
+  display: flex;
+}
+.sideLink {
+  color: white;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+.sideLink i {
+  color: #7cc8e6;
+  margin-right: 10px;
+}
+.sideLink:hover {
+  background-color: #7cc8e6;
+}
+.sideLink:hover i {
+  color: white;
+}
+.activeLink {
+  background-color: #7cc8e6 !important;
+}
+.activeLink i {
+  color: white;
+}
